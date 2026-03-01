@@ -64,7 +64,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let viewSize = self.size
 
         // Layer 1 (farthest) - Mountain view
-        let bg1 = SKSpriteNode(imageNamed: "Mountain-view")
+        let bg1 = SKSpriteNode(imageNamed: "GameAssets/Mountain-view")
         bg1.setScale(max(viewSize.width / bg1.size.width, viewSize.height / bg1.size.height) * 1.5)
         bg1.zPosition = -30
         bg1.name = "bg_far"
@@ -72,7 +72,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         backgroundLayers.append(bg1)
 
         // Layer 2 (mid) - Plains with trees
-        let bg2 = SKSpriteNode(imageNamed: "Plainwtrees")
+        let bg2 = SKSpriteNode(imageNamed: "GameAssets/Plainwtrees")
         bg2.setScale(max(viewSize.width / bg2.size.width, viewSize.height / bg2.size.height) * 1.5)
         bg2.zPosition = -20
         bg2.name = "bg_mid"
@@ -80,7 +80,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         backgroundLayers.append(bg2)
 
         // Layer 3 (near) - Plains
-        let bg3 = SKSpriteNode(imageNamed: "Plains")
+        let bg3 = SKSpriteNode(imageNamed: "GameAssets/Plains")
         bg3.setScale(max(viewSize.width / bg3.size.width, viewSize.height / bg3.size.height) * 1.8)
         bg3.zPosition = -10
         bg3.name = "bg_near"

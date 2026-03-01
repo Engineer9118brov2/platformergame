@@ -20,7 +20,7 @@ struct TileMapping {
 
     static func textureName(for tileID: Int) -> String {
         let fileIdx = tileFileIndex[tileID] ?? tileID
-        return String(format: "1 Tiles/Tile_%02d", fileIdx)
+        return String(format: "GameAssets/1 Tiles/Tile_%02d", fileIdx)
     }
 }
 
@@ -174,7 +174,7 @@ class LevelNode: SKNode {
 
         for bush in data.bushPositions {
             let type = max(1, min(9, bush.type))
-            let texName = "Bushes/\(type)"
+            let texName = "GameAssets/Bushes/\(type)"
             let texture = SKTexture(imageNamed: texName)
             texture.filteringMode = .nearest
 

@@ -63,7 +63,7 @@ let kFrameCounts: [String: Int] = [
 
 // MARK: - Texture Helper
 func loadSpriteSheet(named name: String, frameCount: Int) -> [SKTexture] {
-    let sheet = SKTexture(imageNamed: name)
+    let sheet = SKTexture(imageNamed: "GameAssets/\(name)")
     sheet.filteringMode = .nearest
     var textures: [SKTexture] = []
     let frameWidth = 1.0 / CGFloat(frameCount)
