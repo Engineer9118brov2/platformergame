@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F09DBC2399BBFE96A8413B2E /* PlatformerGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE974DF824B574A09EAE66D1 /* PlatformerGameApp.swift */; };
+		F3EB1DD40F7AFFCF4C5B2777 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C13525269D9F9FAC9D986 /* ContentView.swift */; };
+		6305A406EC261B286DB844C8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD82B48476398965E8969F /* GameScene.swift */; };
+		77336F15D557B5F67259359D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BFCCE970A905101A2800D /* Player.swift */; };
+		A9EC533E32422F41A3DD73D4 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE31B8FE48803E04F47F2F /* Enemy.swift */; };
+		029CE842BE515CD25EF14599 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360886B3BA17C7FE3184D9EA /* Level.swift */; };
+		50EB53A058610BBC1D0A063C /* GameHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE72B7D1DB44B5017E20642 /* GameHUD.swift */; };
+		29A10080E93021608E848FA0 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409B24F34D9E2511CBA852B /* GameConstants.swift */; };
+		D5704B7A9709BEE075AC4CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3340C45202B29152467289 /* Assets.xcassets */; };
+		5F122E8850F97B939AE82A82 /* GameAssets in Resources */ = {isa = PBXBuildFile; fileRef = CB3C818CF6AC29FEA19FF142 /* GameAssets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE974DF824B574A09EAE66D1 /* PlatformerGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformerGameApp.swift; sourceTree = "<group>"; };
+		0A8C13525269D9F9FAC9D986 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0AD82B48476398965E8969F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5C6BFCCE970A905101A2800D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		65FE31B8FE48803E04F47F2F /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		360886B3BA17C7FE3184D9EA /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		7FE72B7D1DB44B5017E20642 /* GameHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHUD.swift; sourceTree = "<group>"; };
+		4409B24F34D9E2511CBA852B /* GameConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConstants.swift; sourceTree = "<group>"; };
+		CC3340C45202B29152467289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB3C818CF6AC29FEA19FF142 /* GameAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameAssets; sourceTree = "<group>"; };
+		A97C29AD63741CF438998CE6 /* PlatformerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatformerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B2D46AA747A59804D46E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7882D14E196057770B59E53D = {
+			isa = PBXGroup;
+			children = (
+				1849FC21AAEE98122148FC2B /* PlatformerGame */,
+				BF7A2D27A78D590BDEF15AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1849FC21AAEE98122148FC2B /* PlatformerGame */ = {
+			isa = PBXGroup;
+			children = (
+				CE974DF824B574A09EAE66D1 /* PlatformerGameApp.swift */,
+				0A8C13525269D9F9FAC9D986 /* ContentView.swift */,
+				D0AD82B48476398965E8969F /* GameScene.swift */,
+				5C6BFCCE970A905101A2800D /* Player.swift */,
+				65FE31B8FE48803E04F47F2F /* Enemy.swift */,
+				360886B3BA17C7FE3184D9EA /* Level.swift */,
+				7FE72B7D1DB44B5017E20642 /* GameHUD.swift */,
+				4409B24F34D9E2511CBA852B /* GameConstants.swift */,
+				CC3340C45202B29152467289 /* Assets.xcassets */,
+				CB3C818CF6AC29FEA19FF142 /* GameAssets */,
+			);
+			path = PlatformerGame;
+			sourceTree = "<group>";
+		};
+		BF7A2D27A78D590BDEF15AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97C29AD63741CF438998CE6 /* PlatformerGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E92819776D1D900150F17949 /* PlatformerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2857F3DA31A2E77D5F204763 /* Build configuration list for PBXNativeTarget "PlatformerGame" */;
+			buildPhases = (
+				E7209FB05162B7572F88D05E /* Sources */,
+				29B2D46AA747A59804D46E1F /* Frameworks */,
+				66F8606E9F0A136E2228EBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatformerGame;
+			productName = PlatformerGame;
+			productReference = A97C29AD63741CF438998CE6 /* PlatformerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = FE422E61AE992D05BC2E14C2 /* Build configuration list for PBXProject "PlatformerGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7882D14E196057770B59E53D;
+			productRefGroup = BF7A2D27A78D590BDEF15AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E92819776D1D900150F17949 /* PlatformerGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F8606E9F0A136E2228EBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5704B7A9709BEE075AC4CCD /* Assets.xcassets in Resources */,
+				5F122E8850F97B939AE82A82 /* GameAssets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7209FB05162B7572F88D05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DBC2399BBFE96A8413B2E /* PlatformerGameApp.swift in Sources */,
+				F3EB1DD40F7AFFCF4C5B2777 /* ContentView.swift in Sources */,
+				6305A406EC261B286DB844C8 /* GameScene.swift in Sources */,
+				77336F15D557B5F67259359D /* Player.swift in Sources */,
+				A9EC533E32422F41A3DD73D4 /* Enemy.swift in Sources */,
+				029CE842BE515CD25EF14599 /* Level.swift in Sources */,
+				50EB53A058610BBC1D0A063C /* GameHUD.swift in Sources */,
+				29A10080E93021608E848FA0 /* GameConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3F7E1332B6B89CC946A9F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5679C1072468440DCC0739C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		386F21FB6CCFBF3FBFDA1CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Platformer Game";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platformer.PlatformerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99EA497894306B9F39FE5709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Platformer Game";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platformer.PlatformerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE422E61AE992D05BC2E14C2 /* Build configuration list for PBXProject "PlatformerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F7E1332B6B89CC946A9F6B /* Debug */,
+				5679C1072468440DCC0739C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2857F3DA31A2E77D5F204763 /* Build configuration list for PBXNativeTarget "PlatformerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386F21FB6CCFBF3FBFDA1CC3 /* Debug */,
+				99EA497894306B9F39FE5709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
